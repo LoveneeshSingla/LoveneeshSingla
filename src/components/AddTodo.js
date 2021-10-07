@@ -3,6 +3,7 @@ import React from "react";
 class AddTodo extends React.Component {
     state = {
         name: "",
+        id: Date.now() + Math.random(),
     }
 
     add = (e) => {
